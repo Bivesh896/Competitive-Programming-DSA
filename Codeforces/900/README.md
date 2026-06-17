@@ -12,6 +12,7 @@ This folder contains my C++ solutions to Codeforces 900-rated problems.
 * Basic STL
 * Brute force
 * Simulation
+* Number Theory
 
 ## Solution Format
 
