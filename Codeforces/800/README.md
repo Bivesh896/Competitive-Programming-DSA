@@ -9,6 +9,7 @@ This folder contains my solutions to Codeforces 800-rated problems.
 - Strings
 - Brute Force
 - Basic STL
+- Greedy
 
 ## Solution Format
 
