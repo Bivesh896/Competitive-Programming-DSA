@@ -2,32 +2,23 @@
 Problem: 136-A Presents
 Platform: Codeforces
 Rating: 800
-Topic:  Strings / Bitwise Logic
+Topic:  Implementation
 */
 #include <iostream>
-#include<string>
 using namespace std;
 int main() 
 {
-    int t,i,flag;
-    char c;
-    cin>>t;
-    string *s;
-    s = new string[t];
-    for(i=0;i<t;i++)
+    int n,i,j=0,*p,*q;
+    cin>>n;
+    p = new int[n];
+    q = new int[n];
+    for(i=0;i<n;i++)
     {
-        cin>>c;
-        flag = 0;
-        for(char ch:"codefrs")
-            if(c == ch)
-                flag = 1;
-        if(flag)
-            s[i] = "YES";
-        else
-            s[i] = "NO";
+        cin>>p[i];
+        q[p[i]-1] = i+1;
+        j++;
     }
-    for(i=0;i<t;i++)
-        cout<<s[i]<<endl;
-    delete []s;
+    for(i=0;i<n;i++)
+        cout<<q[i]<<" ";
     return 0;
 }
