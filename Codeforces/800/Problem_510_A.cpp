@@ -1,17 +1,18 @@
 /*
-Problem: 510A - Fox And Snake
+Problem: 510-A Fox And Snake
 Platform: Codeforces
 Rating: 800
-Topic: String / Implementation
+Topic: Implementation / Pattern Printing
 */
 #include <iostream>
 using namespace std;
-int main() 
+int main()
 {
-    int n,m,i,j,flag=0;
+    int n,m,i,j,flag=0,k;
     cin>>n>>m;
     for(i=1;i<=n;i++)
     {
+        k=1;
         flag = 0;
         for(j=1;j<=m;j++)
         {
